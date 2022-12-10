@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    background-image: repeating-linear-gradient(to bottom right, 
+        rgb(0, 0, 255, .3) 10%, rgb(111, 255, 0, .6) 20%);
+    padding: 20px;
+    margin: 15px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 30px;
+}
+
+nav {
+    float:right;
+    /*padding-top: 10px;*/
+    margin-right: 20px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 5px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    border-style: solid;
+    box-shadow: 2px;
+    border-width: 2px;
+    border-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
