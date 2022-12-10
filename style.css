@@ -11,6 +11,8 @@ header {
         rgb(0, 0, 255, .3) 10%, rgb(111, 255, 0, .6) 20%);
     padding: 20px;
     margin: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 h1 {
@@ -20,8 +22,6 @@ h1 {
 
 nav {
     float:right;
-    /*padding-top: 10px;*/
-    margin-right: 20px;
 }
 
 li {
@@ -29,7 +29,7 @@ li {
     display: inline-block;
     background-color: aliceblue;
     margin: 5px;
-    margin-left: 20px;
+    margin-left: 40px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 20px;
@@ -39,7 +39,34 @@ li {
     border-color: black;
 }
 
-a {
+li a {
     text-decoration: none;
     color: black;
+}
+
+section {
+    display: flex;
+    padding: 20px;
+    margin: 15px;
+}
+
+section h2 {
+    float: left;
+    width: 25%;
+}
+
+.area {
+    text-align: right;
+    padding-right: 40px;
+}
+
+section p {
+    width: 75%;
+    padding-left: 10px;
+    border-left: 20px;
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    border-color: black;
+    border-style: solid;
 }
