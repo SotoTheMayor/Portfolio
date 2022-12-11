@@ -44,7 +44,7 @@ li a {
     color: black;
 }
 
-#about-me, #work, #contact-info {
+section {
     display: flex;
     padding: 20px;
     margin: 15px;
@@ -63,29 +63,31 @@ section h2 {
     border-style: solid;
 }
 
-section p {
+#about-me p {
     width: 85%;
     padding-left: 10px;
 }
 
-img {
-    width: 100%;
+.row {
+    display: flex;
+}
+
+.project-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#project-two, #project-three, #project-four, #project-five {
+    width: 250px;
     height: auto;
 }
 
-.project {
-    width: 85%;
-    flex-wrap: wrap;
-}
-/*
-#contact-info {
-    justify-content: space-between;
+#project-main {
+    width: 500px;
+    height: auto;
 }
 
-#contactblock {
-    float: right;
-}
-*/
+
 .contactbar {
     display: inline-block;
     list-style-type: none;
