@@ -24,7 +24,7 @@ nav {
     float:right;
 }
 
-li {
+.navlinks {
     list-style-type: none;
     display: inline-block;
     background-color: aliceblue;
@@ -44,7 +44,7 @@ li a {
     color: black;
 }
 
-section {
+#about-me, #work, #contact-info {
     display: flex;
     padding: 20px;
     margin: 15px;
@@ -52,7 +52,7 @@ section {
 
 section h2 {
     float: left;
-    width: 10%;
+    width: 15%;
     text-align: right;
     padding-right: 25px;
     border-right: 5px;
@@ -64,12 +64,69 @@ section h2 {
 }
 
 section p {
-    width: 90%;
+    width: 85%;
     padding-left: 10px;
 }
 
-section pre {
-    width: 30%;
+img {
+    width: 100%;
+    height: auto;
+}
+
+.project {
+    width: 85%;
+    flex-wrap: wrap;
+}
+/*
+#contact-info {
+    justify-content: space-between;
+}
+
+#contactblock {
+    float: right;
+}
+*/
+.contactbar {
+    display: inline-block;
+    list-style-type: none;
     padding-left: 10px;
     padding-top: 20px;
 }
+/*
+@media screen and (max-width: 992px) {
+    #project-main {
+      height: 20px;
+      width: 20px;
+    }
+    #project-other {
+        height: 15px;
+        width: 10px;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+/*
+  @media screen and (max-width: 768px) {
+    #project-main {
+        height: 20px;
+        width: 20px;
+    }
+    #project-other {
+          height: 15px;
+          width: 10px;
+    }
+}
+  
+  /* Small smartphones - image placeholders change color */
+/*
+  @media screen and (max-width: 576px) {
+    #project-main {
+        height: 20px;
+        width: 20px;
+      }
+      #project-other {
+          height: 15px;
+          width: 10px;
+      }  
+}
+  
