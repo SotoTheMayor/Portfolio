@@ -41,10 +41,7 @@ nav {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 20px;
-    border-style: solid;
-    box-shadow: 2px;
-    border-width: 2px;
-    border-color: black;
+
 }
 
 li a {
@@ -63,7 +60,7 @@ section {
 
 section h2 {
     float: left;
-    width: 15%;
+    width: 200px;
     text-align: right;
     padding-right: 25px;
     border-right: 5px;
@@ -75,9 +72,9 @@ section h2 {
 }
 
 #about-me p {
-    width: 85%;
+    width: 700px;
     padding-left: 10px;
-}
+} 
 
 .row {
     display: flex;
@@ -89,14 +86,14 @@ section h2 {
     padding-right: 20px;
 }
 
-#project-main {
-    width: 500px;
-    height: auto;
+.primary-project {
+    width: 700px;
+    height: 350px;
 }
 
-#project-two, #project-three, #project-four, #project-five {
-    width: 250px;
-    height: auto;
+.secondary-project {
+    width: 400px;
+    height: 200px;
 }
 
 .contactbar {
@@ -104,6 +101,11 @@ section h2 {
     list-style-type: none;
     padding-left: 10px;
     padding-top: 20px;
+    margin-left: 120px;
+}
+
+#contact-block {
+    width: 700px;
 }
 /*
 @media screen and (max-width: 992px) {
