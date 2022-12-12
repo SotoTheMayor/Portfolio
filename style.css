@@ -1,10 +1,15 @@
+:root {
+    --background-gradient: repeating-linear-gradient(to bottom right, 
+    rgb(184, 182, 182, .3) 10%, white 20%);
+    --main-font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 * {
     margin: 0;
 }
 
 body {
-    background-image: repeating-linear-gradient(to bottom right, 
-        rgb(184, 182, 182, .3) 10%, white 20%);
+    background-image: var(--background-gradient)
 }
 
 header {
@@ -20,8 +25,11 @@ h1 {
     font-size: 30px;
     padding-top: 20px;
     color: white;
+    font-family: var(--main-font);
+    font-size: 30px;
 }
 
+/*Header Cat Image*/
 #avatar {
     width: 80px;
     height: 80px;
@@ -33,6 +41,7 @@ nav {
     padding-top: 20px;
 }
 
+/*Internal links to sections on page*/
 .navlinks {
     list-style-type: none;
     display: inline-block;
@@ -41,10 +50,12 @@ nav {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 20px;
+    font-family: var(--main-font);
 
 }
 
-li a {
+/*remove decoration from all links on page*/
+a {
     text-decoration: none;
 }
 
@@ -52,12 +63,14 @@ li a {
     color: white;
 }
 
+/*turns all main sections (about-me, work, contact) into flex box*/
 section {
     display: flex;
     padding: 20px;
     margin: 15px;
 }
 
+/*left side section titles*/
 section h2 {
     float: left;
     width: 200px;
@@ -69,33 +82,73 @@ section h2 {
     border-left: 0;
     border-color: black;
     border-style: solid;
+    font-family: var(--main-font);
+    font-size: 25px;
 }
 
 #about-me p {
     width: 700px;
     padding-left: 10px;
+    font-family: var(--main-font);
 } 
 
+/*project titles*/
+h3 {
+    position:absolute;
+    background-color: rgb(227, 225, 225);
+    color: black;
+    width: 200px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 15px;
+    margin-left: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    font-family: var(--main-font);
+    font-size: 17px;
+}
+
+/*larger project image title placement*/
+.primary-header {
+    margin-top: 270px;
+}
+
+/*all other project image title placements*/
+.secondary-header {
+    margin-top: 150px;
+}
+
+/*projects broken into groups by row, turns each row into flex box*/
 .row {
     display: flex;
     flex-wrap: wrap;
 }
 
+/*each project is its own container*/
 .project-container {
     padding-left: 20px;
     padding-right: 20px;
 }
 
+/*adds bottom margin to all rows except bottom so section border black bar doesn't extend beyond images*/
+.add-margin {
+    margin-bottom: 30px;    
+}
+
+/*sets size of primary project*/
 .primary-project {
     width: 700px;
     height: 350px;
 }
 
+/*sets size of all remaining projects*/
 .secondary-project {
     width: 400px;
     height: 200px;
 }
 
+/*arranges all pre boxes in contact section*/
 .contactbar {
     display: inline-block;
     list-style-type: none;
@@ -107,41 +160,142 @@ section h2 {
 #contact-block {
     width: 700px;
 }
+
+/*resume section styling*/
+footer {
+    text-align: center;
+    font-family: var(--main-font);
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+/*screen size adjustments*/
+
+/*laptops*/
 /*
 @media screen and (max-width: 992px) {
-    #project-main {
-      height: 20px;
-      width: 20px;
+    h1 {
+        font-size: ;
     }
-    #project-other {
-        height: 15px;
-        width: 10px;
+
+    .navlinks {
+        font-size: ;
+    }
+
+    section h2 {
+        font-size: ;
+    }
+
+    #about-me p {
+        width: ;
+    }
+
+    h3 {
+        width: ;
+        font-size: ;
+    }
+    
+    .primary-project {
+        height: ;
+        width: ;
+    }
+    
+    .secondary-project {
+        height: ;
+        width: ;
+    }
+
+    .contactbar {
+        margin-left: ;
+    }
+
+    #contact-block {
+        width: ;
     }
   }
   
-  /* Large smartphones - navbar changes color */
+  /*Large smartphones*/
 /*
   @media screen and (max-width: 768px) {
-    #project-main {
-        height: 20px;
-        width: 20px;
+    h1 {
+        font-size: ;
     }
-    #project-other {
-          height: 15px;
-          width: 10px;
+
+    .navlinks {
+        font-size: ;
     }
-}
+
+    section h2 {
+        font-size: ;
+    }
+
+    #about-me p {
+        width: ;
+    }
+
+    h3 {
+        width: ;
+        font-size: ;
+    }
+    
+    .primary-project {
+        height: ;
+        width: ;
+    }
+    
+    .secondary-project {
+        height: ;
+        width: ;
+    }
+
+    .contactbar {
+        margin-left: ;
+    }
+
+    #contact-block {
+        width: ;
+    }
+  }
   
-  /* Small smartphones - image placeholders change color */
+/*Small smartphones*/
 /*
-  @media screen and (max-width: 576px) {
-    #project-main {
-        height: 20px;
-        width: 20px;
-      }
-      #project-other {
-          height: 15px;
-          width: 10px;
-      }  
-}
+    h1 {
+        font-size: ;
+    }
+
+    .navlinks {
+        font-size: ;
+    }
+
+    section h2 {
+        font-size: ;
+    }
+
+    #about-me p {
+        width: ;
+    }
+
+    h3 {
+        width: ;
+        font-size: ;
+    }
+    
+    .primary-project {
+        height: ;
+        width: ;
+    }
+    
+    .secondary-project {
+        height: ;
+        width: ;
+    }
+
+    .contactbar {
+        margin-left: ;
+    }
+
+    #contact-block {
+        width: ;
+    }
+  }
   
