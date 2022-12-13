@@ -171,131 +171,163 @@ footer {
 
 /*screen size adjustments*/
 
-/*laptops*/
-/*
+/*laptops - 60%*/
+
 @media screen and (max-width: 992px) {
+
+    
     h1 {
-        font-size: ;
+        font-size: 18px;
     }
 
     .navlinks {
-        font-size: ;
+        font-size: 12px;
     }
 
     section h2 {
-        font-size: ;
+        font-size: 15px;
     }
 
     #about-me p {
-        width: ;
+        width: 420px;
     }
 
     h3 {
-        width: ;
-        font-size: ;
+        width: 120px;
+        font-size: 10px;
     }
     
+    .primary-header {
+        margin-top: 162px;
+    }
+
     .primary-project {
-        height: ;
-        width: ;
+        height: 210px;
+        width: 420px;
     }
     
+    .secondary-header {
+        margin-top: 90px;
+    }
+
     .secondary-project {
-        height: ;
-        width: ;
+        height: 120px;
+        width: 240px;
     }
 
     .contactbar {
-        margin-left: ;
+        margin-left: 72px;
     }
 
     #contact-block {
-        width: ;
+        width: 420px;
     }
   }
   
-  /*Large smartphones*/
-/*
+  /*Large smartphones - 40%*/
+
   @media screen and (max-width: 768px) {
+
+
     h1 {
-        font-size: ;
+        font-size: 12px;
     }
 
     .navlinks {
-        font-size: ;
+        font-size: 8px;
     }
 
     section h2 {
-        font-size: ;
+        font-size: 10px;
     }
 
     #about-me p {
-        width: ;
+        width: 280px;
     }
 
     h3 {
-        width: ;
-        font-size: ;
+        width: 80px;
+        font-size: 7px;
     }
     
+    .primary-header {
+        margin-top: 108px;
+    }
+
     .primary-project {
-        height: ;
-        width: ;
+        height: 140px;
+        width: 280px;
     }
     
+    .secondary-header {
+        margin-top: 60px;
+    }
+
     .secondary-project {
-        height: ;
-        width: ;
+        height: 80px;
+        width: 160px;
     }
 
     .contactbar {
-        margin-left: ;
+        margin-left: 48px;
     }
 
     #contact-block {
-        width: ;
+        width: 280px;
     }
   }
   
-/*Small smartphones*/
-/*
+/*Small smartphones - 20%*/
+
+@media screen and (max-width: 320px) {
+
+
+
     h1 {
-        font-size: ;
+        font-size: 6px;
     }
 
     .navlinks {
-        font-size: ;
+        font-size: 4px;
     }
 
     section h2 {
-        font-size: ;
+        font-size: 5px;
     }
 
     #about-me p {
-        width: ;
+        width: 140px;
     }
 
     h3 {
-        width: ;
-        font-size: ;
+        width: 40px;
+        font-size: 4px;
     }
     
+    .primary-header {
+        margin-top: 54px;
+    }
+
     .primary-project {
-        height: ;
-        width: ;
+        height: 70px;
+        width: 140px;
     }
     
+    .secondary-header {
+        margin-top: 30px;
+    }
+
     .secondary-project {
-        height: ;
-        width: ;
+        height: 40px;
+        width: 80px;
     }
 
     .contactbar {
-        margin-left: ;
+        margin-left: 24px;
     }
 
     #contact-block {
-        width: ;
+        width: 140px;
     }
-  }
+}
   
