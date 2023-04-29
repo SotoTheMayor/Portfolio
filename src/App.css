@@ -64,17 +64,21 @@ a {
 }
 
 .sectionHeader {
-    display: flex;
     justify-content: center;
     text-align: center;
     font-family: var(--main-font);
     font-size: 25px;
+    margin-top: 60px;
 }
 
-/*each project is its own container*/
-.project-container {
-    padding-left: 20px;
-    padding-right: 20px;
+.portfolio-text {
+    justify-content: center;
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 20px;
+    margin-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .glyphicon {
