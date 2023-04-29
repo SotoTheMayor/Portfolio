@@ -77,6 +77,10 @@ a {
     padding-right: 20px;
 }
 
+.glyphicon {
+    font-size: 40px;
+}
+
 /*arranges all pre boxes in contact section*/
 .contactbar {
     display: inline-block;
