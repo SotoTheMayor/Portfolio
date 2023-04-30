@@ -98,40 +98,57 @@ function Contact() {
                         <h2>Contact</h2>
                     </div>
                     <div className="sectionBody row justify-content-center">
-                        <p className="col-8 text-center">This is the section where I do a write up about me, 
-                        how I got here, and what I want to achieve.</p>
+                        <p className="col-8 text-center">You can contact me by email any time 
+                        at <a href="mailto:quickfire25@yahoo.com">quickfire25@yahoo.com</a>, my
+                        <a href="https://github.com/SotoTheMayor" target="_blank"> developer</a> and 
+                        <a href="https://www.linkedin.com/in/jason-johnson-jd-02a220aa/" target="_blank"> professional </a> 
+                        profiles are linked at the bottom of the page, or feel free to leave a message below!</p>
                     </div>
                     <form>
-                        <input 
-                        value={name}
-                        name='name'
-                        onChange={handleInputChange}
-                        onBlur={handleBlur}
-                        type="text"
-                        placeholder="Please enter your name"
-                        />
-                        <input 
-                        value={email}
-                        name='email'
-                        onChange={handleInputChange}
-                        onBlur={handleBlur}
-                        type="email"
-                        placeholder="Please enter your email"
-                        />
-                        <input 
-                        value={message}
-                        name='message'
-                        onChange={handleInputChange}
-                        onBlur={handleBlur}
-                        type="text"
-                        placeholder="Please enter a message to leave"
-                        />
-                        <button 
-                        type="button"
-                        name="button" 
-                        disabled={button} 
-                        onClick={handleFormSubmit}
-                        >Submit</button>
+                        <div className="row">
+                        <p className="col-2 text-end"><em>Name:</em></p>
+                            <input 
+                            value={name}
+                            name='name'
+                            className="col-10"
+                            onChange={handleInputChange}
+                            onBlur={handleBlur}
+                            type="text"
+                            placeholder="Please enter your name"
+                            />
+                        </div>
+                        <div className="row">
+                        <p className="col-2 text-end"><em>Email:</em></p>
+                            <input 
+                            value={email}
+                            name='email'
+                            className="col-10"
+                            onChange={handleInputChange}
+                            onBlur={handleBlur}
+                            type="email"
+                            placeholder="Please enter your email"
+                            />
+                        </div>
+                        <div className="row">
+                            <p className="col-2 text-end"><em>Message:</em></p>
+                            <textarea 
+                            value={message}
+                            name='message'
+                            className="col-10"
+                            onChange={handleInputChange}
+                            onBlur={handleBlur}
+                            placeholder="Please enter a message to leave"
+                            />
+                        </div>
+                        <div className="row justify-content-end">
+                            <button 
+                            type="button"
+                            name="button" 
+                            className="col-2"
+                            disabled={button} 
+                            onClick={handleFormSubmit}
+                            >Submit</button>
+                        </div>
                     </form>
                     {error && (
                         <div>
