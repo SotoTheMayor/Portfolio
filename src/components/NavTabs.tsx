@@ -16,10 +16,10 @@ export default function NavTabs({ currentPage, handlePageChange }: any) {
                 </a>
             </li>
             <li className="navlinks">
-                <a href="#Portfolio"
-                onClick={() => handlePageChange('Portfolio')}
-                className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
-                    Portfolio
+                <a href="#Projects"
+                onClick={() => handlePageChange('Projects')}
+                className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}>
+                    Projects
                 </a>
             </li>
             <li className="navlinks">

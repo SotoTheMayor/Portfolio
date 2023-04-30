@@ -68,7 +68,14 @@ a {
     text-align: center;
     font-family: var(--main-font);
     font-size: 25px;
-    margin-top: 60px;
+    margin-top: 30px;
+}
+
+#projectIntro {
+    font-size: 15px;
+    font-style: italic;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .portfolio-text {
