@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/SotoTheMayor/Portfolio/static/css/main.2c3a6ec6.css",
+    "main.js": "/SotoTheMayor/Portfolio/static/js/main.c9035daa.js",
+    "static/media/meBridge.jpg": "/SotoTheMayor/Portfolio/static/media/meBridge.56e578154fc1041d0a69.jpg",
+    "static/media/dawnTrees.jpg": "/SotoTheMayor/Portfolio/static/media/dawnTrees.49d5b72061bfc1c002e8.jpg",
+    "static/media/sign.jpg": "/SotoTheMayor/Portfolio/static/media/sign.22da77b4f778e4eef9fd.jpg",
+    "static/media/hills.jpg": "/SotoTheMayor/Portfolio/static/media/hills.3b352640dc76139ba39f.jpg",
+    "static/media/purrfectBook.png": "/SotoTheMayor/Portfolio/static/media/purrfectBook.cb88fed425675c74ef1c.png",
+    "static/media/weatherDashboard.png": "/SotoTheMayor/Portfolio/static/media/weatherDashboard.a1d8a0b48d1043d71d61.png",
+    "static/media/SocialNetworkAPI.png": "/SotoTheMayor/Portfolio/static/media/SocialNetworkAPI.14a96bd0ddb3fce4a2da.png",
+    "static/media/brokerExchange.png": "/SotoTheMayor/Portfolio/static/media/brokerExchange.57ddf3e4a8553b6fe1af.png",
+    "static/media/techBlog.png": "/SotoTheMayor/Portfolio/static/media/techBlog.311560910629b99a54bc.png",
+    "static/media/JATE.png": "/SotoTheMayor/Portfolio/static/media/JATE.79bbaa4bc14be990cb96.png",
+    "static/media/git-av.jpg": "/SotoTheMayor/Portfolio/static/media/git-av.7318336b91dd70e2dea4.jpg",
+    "index.html": "/SotoTheMayor/Portfolio/index.html",
+    "main.2c3a6ec6.css.map": "/SotoTheMayor/Portfolio/static/css/main.2c3a6ec6.css.map",
+    "main.c9035daa.js.map": "/SotoTheMayor/Portfolio/static/js/main.c9035daa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c3a6ec6.css",
+    "static/js/main.c9035daa.js"
+  ]
+}
