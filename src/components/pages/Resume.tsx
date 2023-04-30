@@ -10,8 +10,20 @@ export default function Resume() {
                     <h2>Resume</h2>
                 </div>
                 <div className="sectionBody row justify-content-center">
-                    <p className="col-8 text-center">This is the section where I do a write up about me, 
-                    how I got here, and what I want to achieve.</p>
+                    <p className="col-8 resumeBody">If you'd like to download a copy
+                    of my resume, you can do so here <a href='#'>Jason Johnson Resume.pdf</a></p>
+                    <p className="col-8 resumeBody">I enjoy writing code for both front-end 
+                    and back-end, and have picked up many skills so far: </p>
+                    <ul className="col-8 resumeBody ms-4">
+                        <li><span className="ms-4">JavaScript</span></li>
+                        <li><span className="ms-4">JQuery</span></li>
+                        <li><span className="ms-4">Node</span></li>
+                        <li><span className="ms-4">React</span></li>
+                        <li><span className="ms-4">Handlebars</span></li>
+                        <li><span className="ms-4">MySQL</span></li>
+                        <li><span className="ms-4">MongoDB</span></li>
+                        <li><span className="ms-4">Progressive Web Apps</span></li>
+                    </ul>
                 </div>
             </div>
         </div>
