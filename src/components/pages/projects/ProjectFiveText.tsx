@@ -4,7 +4,8 @@ import ProjectContainer from "../ProjectContainer";
 
 export default function ProjectFive() {
     return (
-        <p className="row portfolio-text">This is the PROJECTFIVE section where I do a write up about me, 
-        how I got here, and what I want to achieve. When the text wraps it will wrap like this too.</p>
+        <p className="row project-text">A text editor that utilizes a service worker,
+         indexedDB, and a manifest file to make the app available to use offline. 
+        When reconnected, it will update itself as well.</p>
     )
 }

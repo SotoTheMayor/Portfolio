@@ -94,7 +94,7 @@ export default function ProjectContainer() {
                 className='col-2 glyphicon align-self-center text-center'>
                         &#10094;
                 </a>
-                <div className="col-4 img-fluid portfolio-image">{renderProject()}</div>
+                <div className="col-6 img-fluid portfolio-image">{renderProject()}</div>
                 <a
                 href="#Project/next" 
                 onClick={() => handleProjectChange('Next')}

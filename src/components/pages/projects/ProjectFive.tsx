@@ -6,11 +6,9 @@ export default function ProjectFive() {
     return (
         <div className="section container">
             <div className="sectionHeader row">
-                <h2>Project Name 5 Here</h2>
-                </div>
-            <div className="sectionBody row justify-content-center">
-                <img src={require('../../../Assets/Project-Main.png')} alt="Main Project Image" />
+                <h3>J.A.T.E.</h3>
             </div>
+            <a href="https://github.com/SotoTheMayor/PWATextEditor" target="_blank" className="sectionBody row justify-content-center"><img src={require('../../../Assets/Screenshot of JATE.png')} alt="J.A.T.E. Project Image" /></a>
         </div>
     )
 }

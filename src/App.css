@@ -9,6 +9,11 @@
 }
 
 body {
+    /* background-image: url('./Assets/IMG_1773.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
     background-image: var(--background-gradient)
 }
 
@@ -78,7 +83,7 @@ a {
     padding-right: 200px;
 }
 
-.portfolio-text {
+.project-text {
     justify-content: center;
     text-align: center;
     font-family: var(--main-font);
