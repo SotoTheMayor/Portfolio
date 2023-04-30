@@ -133,6 +133,10 @@ a {
     font-size: 40px;
 }
 
+.errorMessage {
+    font-style: italic;
+    color: red;
+}
 
 footer {
     text-align: center;

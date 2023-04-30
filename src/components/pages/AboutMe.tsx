@@ -19,7 +19,7 @@ export default function AboutMe() {
                     with my daughter, relocation wasn't in the cards either.</p>
                     <p className="col-8 aboutBody">So, I went to school for business, where I 
                     graduated with honors.  That just didn't quite do it for me either, 
-                    so I signed up for law school and practiced law for a time.  Meanwhile, 
+                    so I went to law school and practiced law for a time.  Meanwhile, 
                     I met my wife and had my second child, my son. All the while, coding 
                     has never stopped being a hobby of mine.</p>
                     <p className="col-8 aboutBody">These days, I love to backpack, play 

@@ -8,7 +8,7 @@ export default function ProjectFour() {
             <div className="sectionHeader row">
                 <h3>Social Network API</h3>
             </div>
-            <a href="https://https://github.com/SotoTheMayor/socialNetworkAPINoSQL" 
+            <a href="https://github.com/SotoTheMayor/socialNetworkAPINoSQL" 
             target="_blank" 
             className="sectionBody projectLink row justify-content-center">
                 <img src={require('../../../Assets/SocialNetworkAPI.png')} 
