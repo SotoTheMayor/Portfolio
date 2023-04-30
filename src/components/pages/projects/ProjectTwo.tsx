@@ -6,11 +6,14 @@ export default function ProjectTwo() {
     return (
         <div className="section container">
             <div className="sectionHeader row">
-                <h3>Project Name 2 Here</h3>
-                </div>
-            <div className="sectionBody row justify-content-center">
-                <img src={require('../../../Assets/Project-Main.png')} alt="Main Project Image" />
+                <h3>brokeR Exchange</h3>
             </div>
+            <a href="https://github.com/SBarsuhn/Broker-Exchange"
+            target="_blank" 
+            className="sectionBody projectLink row justify-content-center">
+                <img src={require('../../../Assets/brokerExchange.png')} 
+                alt="exchange website with posts from users" />
+            </a>
         </div>
     )
 }

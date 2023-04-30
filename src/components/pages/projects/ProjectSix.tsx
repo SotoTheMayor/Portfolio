@@ -6,11 +6,14 @@ export default function ProjectSix() {
     return (
         <div className="section container">
             <div className="sectionHeader row">
-                <h3>Project Name 6 Here</h3>
-                </div>
-            <div className="sectionBody row justify-content-center">
-                <img src={require('../../../Assets/Project-Main.png')} alt="Main Project Image" />
+                <h3>Weather Dashboard</h3>
             </div>
+            <a href="https://sotothemayor.github.io/weatherDashboard/" 
+            target="_blank" 
+            className="sectionBody projectLink row justify-content-center">
+                <img src={require('../../../Assets/weatherDashboard.png')} 
+                alt="Five day city forecast" />
+            </a>
         </div>
     )
 }

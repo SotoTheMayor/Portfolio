@@ -84,27 +84,31 @@ export default function ProjectContainer() {
     }
 
     return (
-        <div>
-            <Projects currentProject={currentProject} handleProjectChange={handleProjectChange} />
-            <div className="section container">
-            <div className="sectionBody row justify-content-center">
-                <a
-                href="#Project/prev" 
-                onClick={() => handleProjectChange('Prev')}
-                className='col-2 glyphicon align-self-center text-center'>
-                        &#10094;
-                </a>
-                <div className="col-6 img-fluid portfolio-image">{renderProject()}</div>
-                <a
-                href="#Project/next" 
-                onClick={() => handleProjectChange('Next')}
-                className='col-2 glyphicon align-self-center text-center'>
-                        &#10095;
-                </a>
-
-                {renderProjectText()}
+        <div className="wholePage container">
+            <div className='row'>
+                <div className="imageBanner projectImg col-4"></div>
+                <div className='col-8'>
+                    <Projects currentProject={currentProject} handleProjectChange={handleProjectChange} />
+                    <div className="section">
+                        <div className="sectionBody row justify-content-center">
+                            <a
+                                href="#Project/prev" 
+                                onClick={() => handleProjectChange('Prev')}
+                                className='col-2 glyphicon align-self-center text-center'>
+                                &#10094;
+                            </a>
+                            <div className="col-6 img-fluid portfolio-image">{renderProject()}</div>
+                            <a
+                                href="#Project/next" 
+                                onClick={() => handleProjectChange('Next')}
+                                className='col-2 glyphicon align-self-center text-center'>
+                                &#10095;
+                            </a>
+                            {renderProjectText()}
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
         </div>
     )
 }

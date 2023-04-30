@@ -4,7 +4,8 @@ import ProjectContainer from "../ProjectContainer";
 
 export default function ProjectFour() {
     return (
-        <p className="row project-text">This is the PROJECT FOUR section where I do a write up about me, 
-        how I got here, and what I want to achieve. When the text wraps it will wrap like this too.</p>
+        <p className="row project-text">A backend app for a social media site. 
+        Allows you to create, update, read, and delete users and their thoughts. 
+        Allows for friends to be added, and reactions to be posted to thoughts.</p>
     )
 }

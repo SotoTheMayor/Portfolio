@@ -8,7 +8,12 @@ export default function ProjectFive() {
             <div className="sectionHeader row">
                 <h3>J.A.T.E.</h3>
             </div>
-            <a href="https://github.com/SotoTheMayor/PWATextEditor" target="_blank" className="sectionBody row justify-content-center"><img src={require('../../../Assets/Screenshot of JATE.png')} alt="J.A.T.E. Project Image" /></a>
+            <a href="https://github.com/SotoTheMayor/PWATextEditor" 
+            target="_blank" 
+            className="sectionBody projectLink row justify-content-center">
+                <img src={require('../../../Assets/JATE.png')} 
+                alt="J.A.T.E. Project Image" />
+            </a>
         </div>
     )
 }

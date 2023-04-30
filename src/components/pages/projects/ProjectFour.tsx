@@ -6,11 +6,14 @@ export default function ProjectFour() {
     return (
         <div className="section container">
             <div className="sectionHeader row">
-                <h3>Project Name 4 Here</h3>
-                </div>
-            <div className="sectionBody row justify-content-center">
-                <img src={require('../../../Assets/Project-Main.png')} alt="Main Project Image" />
+                <h3>Social Network API</h3>
             </div>
+            <a href="https://https://github.com/SotoTheMayor/socialNetworkAPINoSQL" 
+            target="_blank" 
+            className="sectionBody projectLink row justify-content-center">
+                <img src={require('../../../Assets/SocialNetworkAPI.png')} 
+                alt="Insomnia Image of Routes" />
+            </a>
         </div>
     )
 }

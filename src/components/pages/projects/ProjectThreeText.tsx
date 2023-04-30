@@ -4,7 +4,8 @@ import ProjectContainer from "../ProjectContainer";
 
 export default function ProjectThree() {
     return (
-        <p className="row project-text">This is the PROJECT THREE section where I do a write up about me, 
-        how I got here, and what I want to achieve. When the text wraps it will wrap like this too.</p>
+        <p className="row project-text">A live blog where developers can create posts, 
+        comment on their own and each other's posts, 
+        and generally just communicate with each other on industry info.</p>
     )
 }

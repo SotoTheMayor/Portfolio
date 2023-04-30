@@ -4,7 +4,8 @@ import ProjectContainer from "../ProjectContainer";
 
 export default function ProjectOne() {
     return (
-        <p className="row project-text">This is the PROJECT ONE section where I do a write up about me, 
-        how I got here, and what I want to achieve. When the text wraps it will wrap like this too.</p>
+        <p className="row project-text">An app that provides book recommendations 
+        using the Google Books API, with custom book recommendations and reviews
+        from cats using CATAAS - cats as a service API</p>
     )
 }
