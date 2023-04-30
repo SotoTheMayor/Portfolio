@@ -7,7 +7,8 @@ export default function Portfolio({ currentProject, handleProjectChange }: any) 
                 <h2>Projects</h2>
                 <p id="projectIntro">Please navigate through some of my top projects using the arrows
                     on either side.  You can click the image of the project to be taken
-                    to it's deployed site, and there is a brief description of each below. </p>
+                    to either it's deployed site, or the GitHub repo. There is a brief 
+                    description of each below, as well. </p>
             </div>
             )
 }

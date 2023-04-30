@@ -25,8 +25,15 @@ export default function PortfolioContainer() {
 
     return (
         <div>
-            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+                <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <footer className='footer container'>
+                <ul className='row'>
+                    <li className='col-4'><a href="https://www.linkedin.com/in/jason-johnson-jd-02a220aa/" className='footlinks' target="_blank">LinkedIn Profile</a></li>
+                    <li className='col-4'><a href="https://github.com/SotoTheMayor" className='footlinks' target="_blank">GitHub Profile</a></li>
+                    <li className='col-4'><a href="mailto:quickfire25@yahoo.com" className='footlinks' target="_blank">Email Me</a></li>
+                </ul>
+            </footer>
         </div>
     )
 }
