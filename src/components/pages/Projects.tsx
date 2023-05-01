@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectContainer from "./ProjectContainer";
 
+//header for projects - rest of project tab displays through ProjectContainer
 export default function Portfolio({ currentProject, handleProjectChange }: any) {
     return (
             <div className="sectionHeader row">

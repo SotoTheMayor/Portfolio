@@ -1,3 +1,4 @@
+//AboutMe section - loads in page body when corresponding tab is clicked
 import React from "react";
 
 export default function AboutMe() {

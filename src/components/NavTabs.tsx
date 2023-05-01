@@ -1,6 +1,6 @@
 import React from "react";
 
-
+//html return that loads with PortfolioContainer - static
 export default function NavTabs({ currentPage, handlePageChange }: any) {
     return (
         <header>

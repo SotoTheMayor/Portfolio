@@ -13,10 +13,12 @@ import ProjectFiveText from './projects/ProjectFiveText'
 import ProjectSix from './projects/ProjectSix';
 import ProjectSixText from './projects/ProjectSixText'
 
+//array that holds all project names that correspond to their separate files - must be edited to include more/less
 const projectArr = ['ProjectOne', 'ProjectTwo', 'ProjectThree', 'ProjectFour', 'ProjectFive', 'ProjectSix'];
 
 export default function ProjectContainer() {
     const [currentProject, setCurrentProject] = useState(projectArr[0]);
+    //render for each project - corresponds to projectArr
     const renderProject = () => {
         if (currentProject === projectArr[0]) {
             return <ProjectOne />;
@@ -37,6 +39,7 @@ export default function ProjectContainer() {
             return <ProjectSix />;
         };
     };
+    //separate text element (description of project) for each project
     const renderProjectText = () => {
         if (currentProject === projectArr[0]) {
             return <ProjectOneText />;
@@ -59,8 +62,8 @@ export default function ProjectContainer() {
     };
 
     const handleProjectChange = (cycle: string) => {
+        //identifies current displayed project and used to cycle to Next or Prev - values are passed from onClick below
         var index = projectArr.indexOf(currentProject);
-        console.log(index)
         var length = projectArr.length;
         if (cycle === 'Next') {
             index++;
@@ -80,7 +83,6 @@ export default function ProjectContainer() {
             setCurrentProject(projectArr[index]);
             }
         }
-        console.log('after -- ' + index)
     }
 
     return (
@@ -93,17 +95,21 @@ export default function ProjectContainer() {
                         <div className="sectionBody row justify-content-center">
                             <a
                                 href="#Project/prev" 
+                                {/* passes 'Prev' to handler above */}
                                 onClick={() => handleProjectChange('Prev')}
                                 className='col-2 glyphicon align-self-center text-center'>
                                 &#10094;
                             </a>
+                            {/* renders project image with link to project */}
                             <div className="col-6 img-fluid portfolio-image">{renderProject()}</div>
                             <a
                                 href="#Project/next" 
+                                {/* passes 'Next' to handler above */}
                                 onClick={() => handleProjectChange('Next')}
                                 className='col-2 glyphicon align-self-center text-center'>
                                 &#10095;
                             </a>
+                            {/* project text display that corresponds to image  */}
                             {renderProjectText()}
                         </div>
                     </div>
