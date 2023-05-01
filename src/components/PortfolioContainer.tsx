@@ -7,6 +7,7 @@ import Resume from './pages/Resume';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
+    //page renders from Navtab
     const renderPage = () => {
         if (currentPage === 'AboutMe') {
             return <AboutMe />;
@@ -23,6 +24,7 @@ export default function PortfolioContainer() {
     };
     const handlePageChange = (page: any) => setCurrentPage(page);
 
+    //static header and footer that loads from App.tsx
     return (
         <div>
                 <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />

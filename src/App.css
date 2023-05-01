@@ -99,6 +99,7 @@ a {
     color: white;
 }
 
+/* reused for each section chosen from navtabs */
 .sectionHeader {
     justify-content: center;
     text-align: center;
@@ -134,6 +135,7 @@ a {
     padding-right: 100px;
 }
 
+/* Next and Prev icons for rotating through projects */
 .glyphicon {
     font-size: 40px;
 }

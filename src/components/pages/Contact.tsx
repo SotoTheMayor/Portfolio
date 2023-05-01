@@ -13,6 +13,8 @@ function Contact() {
         const inputType = target.name;
         const inputValue = target.value;
 
+        //sets values submitted to their corresponding const
+        //these values can be used once connected to backend
         if (inputType === 'name') {
             setName(inputValue)
         } else if (inputType === 'email') {
@@ -21,6 +23,7 @@ function Contact() {
             setMessage(inputValue)
         }
 
+        //tests if any fields are empty and disables submit button
         if (name.trim().length == 0) {
             setButton(true);}
         if (email.trim().length == 0) {
@@ -28,6 +31,7 @@ function Contact() {
         if (message.trim().length == 0) {
             setButton(true);}
 
+            // test if all fields are filled and allows submit button to be clicked
         if (name.trim().length != 0) {
             if (email.trim().length != 0) {
                 if (message.trim().length != 0) {
@@ -39,6 +43,7 @@ function Contact() {
 
     }
 
+    //if a form input loses focus while empty, triggres an error message with instructions
     const handleBlur = (e: any) => {
         const { target } = e;
         const inputType = target.name;
@@ -55,6 +60,7 @@ function Contact() {
                 setError('Message cannot be blank')}
         }
 
+        //submit button checks - disables if any field is empty
         if (name.trim().length == 0) {
             setButton(true);}
         if (email.trim().length == 0) {
@@ -62,6 +68,7 @@ function Contact() {
         if (message.trim().length == 0) {
             setButton(true);}
 
+            //submit button checks - enables if all fields have an entry
         if (name.trim().length != 0) {
             if (email.trim().length != 0) {
                 if (message.trim().length != 0) {
@@ -75,11 +82,13 @@ function Contact() {
     const handleFormSubmit = (e: any) => {
         e.preventDefault();
 
+        //uses helpers.js in utils folder to test email syntax
         if (!validateEmail(email)) {
             setError('Email is invalid');
             return
         }
         
+        //notifies user that submit was completed successfully
         alert(`Hello ${name}.  Thank you for stopping by!`);
 
         setName('');
