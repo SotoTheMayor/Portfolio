@@ -95,21 +95,17 @@ export default function ProjectContainer() {
                         <div className="sectionBody row justify-content-center">
                             <a
                                 href="#Project/prev" 
-                                {/* passes 'Prev' to handler above */}
                                 onClick={() => handleProjectChange('Prev')}
                                 className='col-2 glyphicon align-self-center text-center'>
                                 &#10094;
                             </a>
-                            {/* renders project image with link to project */}
                             <div className="col-6 img-fluid portfolio-image">{renderProject()}</div>
                             <a
                                 href="#Project/next" 
-                                {/* passes 'Next' to handler above */}
                                 onClick={() => handleProjectChange('Next')}
                                 className='col-2 glyphicon align-self-center text-center'>
                                 &#10095;
                             </a>
-                            {/* project text display that corresponds to image  */}
                             {renderProjectText()}
                         </div>
                     </div>
