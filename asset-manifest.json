@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.7d2ed41d.css",
-    "main.js": "/Portfolio/static/js/main.7935c8fc.js",
+    "main.js": "/Portfolio/static/js/main.e05d6725.js",
     "static/media/meBridge.jpg": "/Portfolio/static/media/meBridge.56e578154fc1041d0a69.jpg",
     "static/media/dawnTrees.jpg": "/Portfolio/static/media/dawnTrees.49d5b72061bfc1c002e8.jpg",
     "static/media/sign.jpg": "/Portfolio/static/media/sign.22da77b4f778e4eef9fd.jpg",
     "static/media/hills.jpg": "/Portfolio/static/media/hills.3b352640dc76139ba39f.jpg",
     "static/media/purrfectBook.png": "/Portfolio/static/media/purrfectBook.cb88fed425675c74ef1c.png",
-    "static/media/Bonatics.png": "/Portfolio/static/media/Bonatics.abffeeee03e4a7506aa1.png",
+    "static/media/weatherDashboard.png": "/Portfolio/static/media/weatherDashboard.a1d8a0b48d1043d71d61.png",
     "static/media/SocialNetworkAPI.png": "/Portfolio/static/media/SocialNetworkAPI.14a96bd0ddb3fce4a2da.png",
     "static/media/brokerExchange.png": "/Portfolio/static/media/brokerExchange.57ddf3e4a8553b6fe1af.png",
     "static/media/techBlog.png": "/Portfolio/static/media/techBlog.311560910629b99a54bc.png",
@@ -15,10 +15,10 @@
     "static/media/git-av.jpg": "/Portfolio/static/media/git-av.7318336b91dd70e2dea4.jpg",
     "index.html": "/Portfolio/index.html",
     "main.7d2ed41d.css.map": "/Portfolio/static/css/main.7d2ed41d.css.map",
-    "main.7935c8fc.js.map": "/Portfolio/static/js/main.7935c8fc.js.map"
+    "main.e05d6725.js.map": "/Portfolio/static/js/main.e05d6725.js.map"
   },
   "entrypoints": [
     "static/css/main.7d2ed41d.css",
-    "static/js/main.7935c8fc.js"
+    "static/js/main.e05d6725.js"
   ]
 }
