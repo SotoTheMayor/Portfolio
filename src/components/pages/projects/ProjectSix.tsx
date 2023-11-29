@@ -6,13 +6,13 @@ export default function ProjectSix() {
     return (
         <div className="section container">
             <div className="sectionHeader row">
-                <h3>Weather Dashboard</h3>
+                <h3>The Purrfect Book</h3>
             </div>
-            <a href="https://sotothemayor.github.io/weatherDashboard/" 
+            <a href="https://sotothemayor.github.io/recommendabook/" 
             target="_blank" 
             className="sectionBody projectLink row justify-content-center">
-                <img src={require('../../../Assets/weatherDashboard.png')} 
-                alt="Five day city forecast" />
+                <img src={require('../../../Assets/purrfectBook.png')} 
+                alt="cats recommending books" />
             </a>
         </div>
     )

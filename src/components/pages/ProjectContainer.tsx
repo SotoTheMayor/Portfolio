@@ -99,7 +99,6 @@ export default function ProjectContainer() {
                                 className='col-2 glyphicon align-self-center text-center'>
                                 &#10094;
                             </a>
-                            {/* renders project image with link to project */}
                             <div className="col-6 img-fluid portfolio-image">{renderProject()}</div>
                             <a
                                 href="#Project/next" 
@@ -107,7 +106,6 @@ export default function ProjectContainer() {
                                 className='col-2 glyphicon align-self-center text-center'>
                                 &#10095;
                             </a>
-                            {/* project text display that corresponds to image  */}
                             {renderProjectText()}
                         </div>
                     </div>
