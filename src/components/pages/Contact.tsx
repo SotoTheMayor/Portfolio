@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
     const [name, setName] = useState('');
@@ -88,15 +89,28 @@ function Contact() {
             return
         }
         
+        const formParams = {
+            'name': name,
+            'email': email,
+            'message': message,
+        }
+        
+        emailjs.send('service_p9ucw11', 'template_5vov5ch', formParams, 'VbwEgeS1dXFJMCRnj')
+            .then((result) => {
+                console.log(result);
+            }, (error) => {
+                console.log(error)
+            });
+
         //notifies user that submit was completed successfully
-        alert(`Hello ${name}.  Thank you for stopping by!`);
+        alert(`Hello ${name}.  Thank you for stopping by!  Your message has successfully been sent.`);
 
         setName('');
         setEmail('');
         setMessage('');
         setError('');
         setButton(true);
-    }
+        }
 
     return (
         <div className="wholePage container">
