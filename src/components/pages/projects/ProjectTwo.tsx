@@ -4,7 +4,7 @@ import ProjectContainer from "../ProjectContainer";
 
 export default function ProjectTwo() {
     return (
-        <div className="section container">
+        <div className="section container-fluid">
             <div className="sectionHeader row">
                 <h3>brokeR Exchange</h3>
             </div>

@@ -86,7 +86,7 @@ export default function ProjectContainer() {
     }
 
     return (
-        <div className="wholePage container">
+        <div className="wholePage container-fluid">
             <div className='row'>
                 <div className="imageBanner projectImg col-4"></div>
                 <div className='col-8'>

@@ -3,7 +3,7 @@ import React from "react";
 
 export default function AboutMe() {
     return (
-        <div className="wholePage container">
+        <div className="wholePage container-fluid">
         <div className="row">
             <div className="imageBanner aboutImg col-4"></div>
             <div className="col-8">

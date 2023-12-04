@@ -4,7 +4,7 @@ import ProjectContainer from "../ProjectContainer";
 
 export default function ProjectSix() {
     return (
-        <div className="section container">
+        <div className="section container-fluid">
             <div className="sectionHeader row">
                 <h3>The Purrfect Book</h3>
             </div>
